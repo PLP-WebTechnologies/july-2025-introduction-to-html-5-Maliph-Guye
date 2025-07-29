@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A beginner's guide to the fundamentals of web development, covering HTML, CSS, and JavaScript.">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Web Development">
+    <title>Fundamentals of HTML</title>
+</head>
+<body>
+    <header>
+        <h1>Fundamentals of HTML</h1>
+        <nav>
+            <ul>
+                <li><a href="#introduction">What is HTML?</a></li>
+                <li><a href="#tags">HTML Tags</a></li>
+                <li><a href="#layouts">Page Layouts</a></li>
+                <li><a href="#forms-inputs">Forms & User Input</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+            <img src="html (1).png" alt="HTML logo" width="100">
+        </nav>
+    </header>
+    <main>
+        <article>
+            <section id="introduction">
+                <h2>What is HTML?</h2>
+                <p>
+                    HTML (HyperText Markup Language) is the standard language used to create and structure content on the web. 
+                    Think of it as the skeleton of a webpage—it defines headings, paragraphs, images, links, and other elements that make up a site. 
+                    Unlike programming languages, HTML does not perform calculations or logic; instead, it tells browsers how to display content in a structured way.
+                </p>
+                <p>
+                    To get started, you only need a text editor (like Notepad or VS Code) and a browser. 
+                    HTML uses tags (like <code>&lt;h1&gt;</code> for headings or <code>&lt;p&gt;</code> for paragraphs) to organize text, media, and interactive elements. 
+                    These tags act as building blocks, letting you create anything from simple documents to complex web applications.
+                </p>
+                <h3>Moving Forward: Key HTML Concepts</h3>
+                <p>Now that you understand HTML's role, let's explore its core components:</p>
+                <ol>
+                    <li>Essential HTML Tags - The basic elements every webpage needs</li>
+                    <li>Creating Page Layouts - How to structure content with headers, footers, and sections</li>
+                    <li>Forms & User Input - Making your site interactive with buttons and text fields</li>
+                </ol>
+            </section>
+            <section id="tags">
+                <h2>Essential HTML Tags</h2>
+                <p>
+                    HTML tags are the building blocks of every webpage, defining how content is structured and displayed. Common tags include:
+                </p>
+                <ul>
+                    <li><code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> for headings</li>
+                    <li><code>&lt;p&gt;</code> for paragraphs</li>
+                    <li><code>&lt;a&gt;</code> for links</li>
+                    <li><code>&lt;img&gt;</code> for images</li>
+                    <li><code>&lt;ul&gt;</code> and <code>&lt;ol&gt;</code> for lists</li>
+                    <li><code>&lt;div&gt;</code> for grouping elements</li>
+                </ul>
+                <figure>
+                    <img src="html.png" alt="HTML Tags Example" width="400">
+                    <figcaption>Example of Common HTML Tags</figcaption>
+                </figure>
+            </section>
+            <section id="layouts">
+                <h2>Page Layouts</h2>
+                <p>HTML provides semantic tags for structuring page layouts:</p>
+                <pre><code>
+&lt;header&gt;...&lt;/header&gt;
+&lt;main&gt;...&lt;/main&gt;
+&lt;footer&gt;...&lt;/footer&gt;
+&lt;section&gt;...&lt;/section&gt;
+&lt;article&gt;...&lt;/article&gt;
+                </code></pre>
+                <p>These tags help create well-organized, accessible web pages.</p>
+            </section>
+            <section id="forms-inputs">
+                <h2>Forms & User Input</h2>
+                <p>Forms let users interact with your website—like signing up, logging in, or submitting feedback.</p>
+                <pre><code>
+&lt;form action="submit.php" method="post"&gt;
+    &lt;label for="name"&gt;Name:&lt;/label&gt;
+    &lt;input type="text" id="name" name="name" required&gt;
+    &lt;button type="submit"&gt;Submit&lt;/button&gt;
+&lt;/form&gt;
+                </code></pre>
+                <p>Forms are essential for gathering user data and making your site interactive.</p>
+            </section>
+            <section id="summary">
+                <h2>Summary</h2>
+                <p>
+                    In this guide, we covered the fundamentals of HTML, including its purpose, essential tags, page layouts, and forms. 
+                    Understanding these concepts is crucial for anyone looking to build websites or web applications.
+                </p>
+                <p>
+                    To learn more, visit 
+                    <a href="https://www.w3schools.com/html/default.asp" target="_blank">W3Schools HTML Tutorial</a>.
+                </p>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; 2023 Tonnis Ondito</p>
+    </footer>
+</body>
+</html>
